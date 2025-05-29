@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 10px 3px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 400px;
+    height: 30px;
+}
+
+.logo{
+    width: 200px;
+}
+
+ul{
+    display: flex;
+    background-color: transparent;
+    gap: 20px;
+}
+
+ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: transparent;
+    width:80px;
+    text-align: center;
+}
+
+ul a:hover{
+    border: 2px;
+    border-radius: 5px;
+    background-color: bisque;
+    color: brown;
+    height: 50px;
+}
+    
+button{
+    background-color: rgb(75, 12, 41);
+    color:black;
+    border-radius: 12px;
+    border: none;
+    width: 150px;
+}
+
+button:hover{
+    color: rgb(114, 95, 44) ;
+}
+
+section{
+    border: 1px rgb(92, 66, 63);
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+    background-color: blanchedalmond;
+    width: 650px;
+    height: 500px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.info{
+}
+
+.info p {
+    background-color: transparent;
+}
+
+#none{
+    width: 190px;
+    height: 200px;
+    background: transparent;
+    border-radius: 150px;
+}
+
+.body{
+    width: 100%;
+    height: 700px;
+    background-image: url(WhatsApp\ Image\ 2025-02-10\ at\ 21.38.10_1519ca26.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.myimg{
+    width: 150px;
+    height: 150px;
+    border-radius: 360px;
+    margin-top: 60px;
+}
+
+.logo{
+    width: 4cm;
+    height: 2cm;
+    background: transparent;
+    mix-blend-mode: multiplyx;
+}
+
+.whatsapp-container{
+    padding: 20px;
+    float: left;
+    background: linear-gradient(180deg, lightgreen, green);
+    border: none;
+    border-radius: 20px;
+}
+
+.email-container{
+    padding: 20px;
+    position: relative;
+    bottom: -200px;
+    left: -210px;
+    background-color: blue;
+    float: left;
+    background: linear-gradient(180deg, lightgreen, green);
+    border-radius: 20px;
+    border: none;
+}
+
+.input-elements{
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 500px;
+    padding: 50px;
+    background: linear-gradient(180deg, lightgreen, green);
+    border: none;
+    border-radius: 20px;
+}
+
+.msg{
+    height: 1.9cm;
+    margin-left: 60px;
+}
